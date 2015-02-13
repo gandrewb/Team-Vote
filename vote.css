@@ -11,11 +11,11 @@ h1, h2, h3, h4, h5, h6{
 a{
 	color: #fff;
 	text-decoration: none;
-	border-bottom: solid 1px rgb(255,100,100);
+	border-bottom: solid 1px hsl(21, 100%, 70%);
 }
 
 html{
-	background-color: hsl(355, 100%, 40%);
+	background-color: hsl(21, 100%, 40%);
 	font-size: 62.5%;
 }
 body{
@@ -25,15 +25,15 @@ body{
 }
 header{
 	text-align: center;
+	padding: 6em;
 }
-	.logo{
-		width: 100%;
-		max-width: 600px;
+	header h1{
+		font-size: 4em;
+		margin-bottom: 1em;
 	}
-	.instructions{
+	header p{
+		margin: .5em auto;
 		font-size: 1.8rem;
-		margin: -90px auto 4em;
-		padding: 0 1em;
 		max-width: 20em;
 	}
 
@@ -48,7 +48,7 @@ header{
 		position: absolute;
 		left: 1em;
 		right: 3.5em;
-		border-top: solid 1px #f55;
+		border-top: solid 1px hsl(21, 100%, 70%);
 		font-size: 1.3em;
 		cursor: pointer;
 		-webkit-transition: all .3s ease-out;

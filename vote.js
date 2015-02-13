@@ -1,4 +1,4 @@
-Parse.initialize("120wGaChy6suUEGhVWVZbe4lDSxS6JqILXNWVHSN", "BrIOqwMczDQchO6AqNh45s1cfMGhwh5DKBTDCsdM");
+Parse.initialize("if9wNgG79QCspicef6uTjTrDMNaoi9ArzHczFIy2", "6bDlMLAkviNmNxyfqQxOEWzSsRtGHLrqWNO3aZdy");
 
 var Movie = Parse.Object.extend("Movie");
 var query = new Parse.Query(Movie);
@@ -14,7 +14,7 @@ dom = {
 };
 
 poll = {
-	expires: 'expires=Thu, 25 Dec 2014 23:59:59 UTC',
+	expires: 'expires=Sat, 21 Feb 2015 23:59:59 UTC',
 	len: null,
 	movies: null,
 	votes: null,
