@@ -15,7 +15,7 @@ query.find({
 });
 
 poll = {
-	expires: 'expires=Sat, 21 Feb 2015 23:59:59 UTC',
+	expires: 'expires=Sat, 21 Feb 2100 23:59:59 UTC',
 	len: null,
 	movies: null,
 	votes: null,
