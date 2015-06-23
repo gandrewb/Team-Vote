@@ -1,17 +1,18 @@
+dom = {
+	poll: document.getElementById('poll')
+};
+
 Parse.initialize("if9wNgG79QCspicef6uTjTrDMNaoi9ArzHczFIy2", "6bDlMLAkviNmNxyfqQxOEWzSsRtGHLrqWNO3aZdy");
 
 var Movie = Parse.Object.extend("Movie");
 var query = new Parse.Query(Movie);
+query.equalTo("tag", dom.poll.getAttribute('data-tag'));
 query.ascending("title");
 query.find({
 	success: function(results){
 		poll.build(results);
 	}
 });
-
-dom = {
-	poll: document.getElementById('poll')
-};
 
 poll = {
 	expires: 'expires=Sat, 21 Feb 2015 23:59:59 UTC',
